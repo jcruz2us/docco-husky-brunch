@@ -1,5 +1,5 @@
 {
-  "name": "docco-brunch",
+  "name": "docco-husky-brunch",
   "version": "0.0.1",
   "description": "Adds docco-husky support to brunch.",
   "main": "./lib/index",
