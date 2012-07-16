@@ -8,6 +8,6 @@ module.exports = class DoccoRunner
 	constructor: (@config) ->
 		null
 
-	compile: (data, path, callback) ->
+	onCompile: (data, path, callback) ->
 		child_process.exec  "node_modules/docco-husky-brunch/node_modules/.bin/docco-husky app", (error, stdout, stderr) ->
 			console.log "exec error: " + error  if error isnt null
