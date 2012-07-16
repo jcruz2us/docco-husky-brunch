@@ -1,10 +1,8 @@
 ## docco-brunch
-Adds Docco-husky support to [brunch](http://brunch.io).
+Adds docco-husky support to [brunch](http://brunch.io).
+
+At the moment, the plugin is not available on npm so you have to use the tarball available on GitHub.
 
 ## Usage
-Add `"doco-brunch": "x.y.z"` to `package.json` of your brunch app.
+Add `"docco-husky-brunch": "https://github.com/jcruz2us/docco-husky-brunch/tarball/master"` to `package.json` of your brunch app.
 
-Pick a plugin version that corresponds to your minor (y) brunch version.
-
-If you want to use git version of plugin, add
-`"docco-brunch": "git+ssh://git@github.com:jcruz2us/docco-brunch.git"`.
