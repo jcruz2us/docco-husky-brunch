@@ -2,7 +2,7 @@ sysPath = require 'path'
 
 child_process = require 'child_process'
 
-module.exports = class DoccoRunner
+module.exports = class DoccoHuskyRunner
 	brunchPlugin: yes
 
 	constructor: (@config) ->
